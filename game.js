@@ -11,7 +11,7 @@ $(document).on("keydown", function(event) {
     }
 });
 
-$("#level-title").on("touchstart", function(event) {
+$(document).on("touchstart", function(event) {
     if (gamePattern.length === 0) {
         nextSequence();
     }
